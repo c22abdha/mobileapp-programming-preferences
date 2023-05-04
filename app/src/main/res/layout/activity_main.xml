@@ -25,13 +25,27 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <TextView
+        android:id="@+id/ShowViewName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
+        android:textSize="18sp"
+        android:padding="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+        app:layout_constraintVertical_bias="0.30" />
+
+
+    <Button
+        android:id="@+id/NameViewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="write Anything"
+        app:layout_constraintTop_toBottomOf="@id/ShowViewName"
+        app:layout_constraintStart_toStartOf="@id/ShowViewName"
+        app:layout_constraintEnd_toEndOf="@id/ShowViewName"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

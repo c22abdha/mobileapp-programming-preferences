@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Shared Preferences</string>
+    <string name="app_name">Preferences</string>
+    <string name="input">Name</string>
+    <string name="ShowData">ShowData</string>
 </resources>
